@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>JavaScript</title>
+	<script>
+		document.write("<h1>Hola Mundo</h1>");
+		document.write("Hola" + 2 + 5);
+		
+		
+		function summa(a, b){
+			var resultado = a + b;
+			alert("Resultado " + resultado);
+		};
+		
+		
+		
+		function multiplicar(a, b){
+			var resultado = a * b;
+			alert("Multiplicar " + resultado);
+		};
+		
+		
+		var operacion = function (unaFuncion){
+			unaFuncion(3,3);
+		};
+		
+		
+		sumar(valor1,valor2);
+		operacion(multiplicar);
+		
+		
+		var dato = 3;
+		
+		(function(){
+			var dato = 5;
+			alert("dato " + dato);
+			var funcioncita1=function(){
+				alert("hola");
+			};
+		})();
+		
+		alert("dato " + dato);
+		
+		var objeto = new Object();
+		objeto.nombre="Objetito";
+		objeto.hablar=function(){
+			alert("Soy un objeto");
+		};
+		
+		/*Notacion JSON JavaScript Object Notation*/
+		
+		var objeto2 ={
+			nombre: "Objeto 2",
+			hablar: function(){
+				alert("Soy un objeto 2");
+			}
+		};
+		
+		
+		var objeto = {};
+		
+		objeto3.nombre = "objeto3";
+		
+		alert(objeto2.nombre);
+		
+		
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
